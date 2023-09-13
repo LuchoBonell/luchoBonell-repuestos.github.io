@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Lucho Bonell">
+<meta name="descripcion" content="**********">
+<meta name="keywords" content="HTML, CSS, JavaScript, React">
+<!--Bootstrap-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<!--Favicon-->
+<link rel="icon" type="image/x-icon" href="Imagenes/REPUESTOS.png"> 
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Rubik+Dirt&display=swap" rel="stylesheet">
+<!---Scroll-Effects--->
+<script src="https://unpkg.com/scrollreveal"></script>
+<!--Css-->
+<link rel="stylesheet" href="estilos.css">
+<!--JS-->
+<script src="./index.js" defer></script>
+<!--Titulo-->
+<title>Repuestos Alemanes</title>
+</head>
+<body>
+
+        <nav class="navbar navbar-expand-md bg-warning py-3 fixed-top" data-bs-theme="light">
+          <div class="container">
+            <img src="Imagenes/REPUESTOS.png"  alt="" width="90" height="80" class="icono"><a class="navbar-brand fs-1"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav fs-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formulario">Formulario</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Desplegar
+                    </a>
+                    <ul class="dropdown-menu bg-warning fs-4">
+                      <li><a class="dropdown-item" href="#marcas">Marcas</a></li>
+                      <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  
+    
+    <header class="mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 align-self-center mt-5 pt-5">
+                    <h1 class="titulo">Respuestos Alemanes</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, eius!</p>
+                </div>
+                <div class="col-lg-6 text-center my-5 pt-5">
+                    <img src="Imagenes/1.png" class="rounded image-1" width="450" height="300"  alt="imagen motor">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    
+    <main class="my-5" id="marcas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-6 text-center">
+                    <h2>Marcas</h2>
+                </div>
+            </div> 
+        </div>
+        <div class="container d-flex justify-content-around"> 
+          <div class="row">  
+                <div class="col-lg-4 col-md-6 col-sm-6 justify-content-around p-3"> 
+                    <img src="Imagenes/7.png" class="rounded marcas" alt="mercedes" width="300" height="200">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 justify-content-around p-3">
+                    <img src="Imagenes/8.png" class="rounded marcas" alt="audi" width="300" height="200">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 justify-content-around p-3">
+                    <img src="Imagenes/9.png" class="rounded marcas" alt="bmw" width="300" height="200">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+    <section>
+         <div class="parallax my-5 py-5">   
+            <div class="container py-5 my-5">
+                <div class="row">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-4">
+                        <div class="contenido bg-secondary text-warning p-3">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, at?</p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+         </div>   
+    </section>
+    
+    
+    <section class="formulario d-flex flex-column align-items-center justify-content-center" id="formulario">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-7 mt-5">
+                    <div class="sticky-top mt-5 justify-content-around p-4">
+                        <div class="card border-0" style="width: 20rem;">
+                            <img src="Imagenes/4.png" class="card-img-top rounded" alt="...">
+                            <br>
+                            <img src="Imagenes/13.png" class="card-img-top rounded" alt="...">   
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <h2 class="align-self-center mt-4 formulario">Formulario</h2>
+                    <form action="https://formsubmit.co/lucianojmb@gmail.com" method="post">
+                    <p>Apellido y Nombre</p>
+                    <input type="text" name="Ingrese tu nombre y apellido" class="form-control">
+                    <br>
+                    <p>Telefono</p>
+                    <input type="text" name="Ingrese su Telefono" class="form-control">
+                    <br>
+                    <p>Nombre repuesto</p>
+                    <input type="text" name="Ingrese su nombre repuesto" class="form-control">
+                    <br>
+                    <p>Modelo vehiculo</p>
+                    <input type="text" name="Ingrese modelo vehiculo" class="form-control">
+                    <br>
+                    <p>Marca vehiculo</p>
+                    <input type="text" name="Ingrese marca vehiculo" class="form-control">
+                    <br>
+                    <p>Cantidad</p>
+                    <input type="text" name="Ingrese cantidad de repuestos" class="form-control">
+                    <br>
+                    <p>Email</p>
+                    <input type="text" name="Ingrese su email" class="form-control">
+                    <br>
+                    <p>Comentario</p>
+                    <textarea name="" id="" class="form-control"></textarea>
+                    <br>
+                    <input type="submit" value="Enviar" class="form-control bg-warning text-dark">
+                    <input type="hidden" name="_next" value="  DIRECCION PAGINA WEB  ">
+                    <input type="hidden" name="_captcha" value="false">
+                  </form>
+                  </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <footer class="icono">
+        <div class="container" id="contacto">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h2 class="my-3 contacto">Contacto</h2>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                    </svg>
+                    <i class="bi bi-whatsapp text-light">0343-15500000</i>
+                    <p class="text-center mt-3">Todos los Derechos Reservados &copy; LABStudio.SF</p>
+                  </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+      ScrollReveal({ 
+       reset: true,
+       distance: '60px',
+       duration: 2500,
+       delay: 400
+      });
+ 
+      ScrollReveal().reveal('.titulo', { delay: 500, origin: 'right'  });
+      ScrollReveal().reveal('.marcas', { delay: 700, origin: 'bottom'  });
+      ScrollReveal().reveal('.image-1', { delay: 700, origin: 'right' });
+      ScrollReveal().reveal('.formulario', { delay: 500, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.contacto', { delay: 500, origin: 'top' });
+      ScrollReveal().reveal('.', { delay: 500, origin: 'left', interval: 200 });
+ 
+   </script>   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
